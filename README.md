@@ -77,8 +77,6 @@ multiplication$ ./mvnw spring-boot:run -Dspring-boot.run.arguments="--server.por
 
 To kill an instance, you can use `kill -9` for example, followed by the process id of the Java application (that you can find also in the Spring Boot app logs).
 
-[Get the book](https://tpd.io/book-extra) for all the insights about these resilience patterns and the deep-dive on microservice architectures from a practical perspective.
-
 ## Questions
 
 * Do you have questions about how to make this application work?
