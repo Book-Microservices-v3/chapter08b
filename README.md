@@ -44,11 +44,11 @@ Requirements:
     ```
 2. To start the Gamification microservice, you do the same from its corresponding folder:
     ```bash
-    gamification ./mvnw spring-boot:run
+    gamification$ ./mvnw spring-boot:run
     ```
 3. To start the Gateway microservice, you do the same from its corresponding folder:
     ```bash
-    gamification ./mvnw spring-boot:run
+    gateway$ ./mvnw spring-boot:run
     ```
 2. The React application can be started with npm. First, you need to download the dependencies with:
     ```bash
