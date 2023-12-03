@@ -65,6 +65,18 @@ Requirements:
 
 Once the backend and the fronted are started, you can navigate to `http://localhost:3000` in your browser and start resolving multiplication challenges.
 
+## Retrieving health status using the Actuator Endpoint
+Run the following command from your terminal or command line window: 
+
+```bash
+$ http :8080/actuator/health
+```
+
+## Requesting list of registered services using the Consul API
+Open terminal or command line window in your system and type the following command: 
+```bash
+$ http -b :8500/v1/agent/services
+```
 ## More advanced scenarios
 
 Starting with this version, you can try some interesting scenarios. For example, you can start a second instance of both the Multiplication and Gamification microservices, and then start killing some of these application processes. You'll see how Consul detects these failing services, and also how the Retry pattern in the Gateway makes everything work under failures.
